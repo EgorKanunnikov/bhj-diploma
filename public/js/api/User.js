@@ -99,7 +99,7 @@ class User {
       method: 'POST',
       callback: (err, response) => {
         if (response && response.user) {
-          this.unsetCurrentt(response.user);
+          this.unsetCurrent(response.user);
         }
         callback(err, response);
       }

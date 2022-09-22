@@ -29,7 +29,7 @@ class Modal {
     this.element.querySelectorAll('[data-dismiss="modal"]').forEach(btn => {
       btn.onclick = e => {
         this.onClose(e);
-      }
+      };
     });
   }
 
